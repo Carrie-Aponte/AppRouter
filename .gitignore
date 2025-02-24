@@ -27,6 +27,7 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+# need to make sure .env is in here to prevent database secrets from being exposed when pushed to github
 
 # vercel
 .vercel
